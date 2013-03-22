@@ -20,6 +20,7 @@ Magenta="\[\033[1;95m\]"     # Purple
 
 # Various variables you might want for your PS1 prompt instead
 Time12a="\@"
+Time24="\A"
 PathShort="\w"
 
 # Default values for the appearance of the prompt. Configure at will.
@@ -27,14 +28,14 @@ GIT_PROMPT_PREFIX="("
 GIT_PROMPT_SUFFIX=")"
 GIT_PROMPT_SEPARATOR="|"
 GIT_PROMPT_BRANCH="${Magenta}"
-GIT_PROMPT_STAGED="${Red}● "
-GIT_PROMPT_CONFLICTS="${Red}✖ "
-GIT_PROMPT_CHANGED="${Blue}✚ "
+GIT_PROMPT_STAGED="${Red}●"
+GIT_PROMPT_CONFLICTS="${Red}✖"
+GIT_PROMPT_CHANGED="${Blue}✚"
 GIT_PROMPT_REMOTE=" "
 GIT_PROMPT_UNTRACKED="…"
 GIT_PROMPT_CLEAN="${BGreen}✔"
 
-PROMPT_START="$IBlack$Time12a$ResetColor$Yellow$PathShort$ResetColor"
+PROMPT_START="$IBlack$Time24 $ResetColor$Yellow$PathShort$ResetColor"
 PROMPT_END=" % "
 
 
