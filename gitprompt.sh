@@ -39,7 +39,7 @@ GIT_PROMPT_REMOTE=" "
 GIT_PROMPT_UNTRACKED="…"
 GIT_PROMPT_CLEAN="${BGreen}✔"
 
-#Not applied two lines conention from https://github.com/magicmonty/bash-git-prompt/pull/5/files
+#Not applied two lines convention from https://github.com/magicmonty/bash-git-prompt/pull/5/files
 PROMPT_START="$IBlack$Time24 $ResetColor$Yellow$PathShort$ResetColor"
 PROMPT_END=" $ "
 
