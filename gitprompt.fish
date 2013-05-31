@@ -37,8 +37,8 @@ function fish_prompt
 
     # Various variables you might want for your PS1 prompt instead
     set Time (date +%R)
-    set PathShort (pwd|sed "s=$HOME=~=")
-
+    set PathShort (prompt_pwd)
+    
     set PROMPT_START "$IBlack$Time24 $ResetColor$Yellow$PathShort$ResetColor"
     set PROMPT_END " \$ "
 
