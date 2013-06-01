@@ -39,7 +39,7 @@ function fish_prompt
     set Time (date +%R)
     set PathShort (prompt_pwd)
     
-    set PROMPT_START "$IBlack$Time24 $ResetColor$Yellow$PathShort$ResetColor"
+    set PROMPT_START "$IBlack$Time $ResetColor$Yellow$PathShort$ResetColor"
     set PROMPT_END " \$ "
 
     set -e __CURRENT_GIT_STATUS
